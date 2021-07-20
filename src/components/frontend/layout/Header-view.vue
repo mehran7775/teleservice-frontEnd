@@ -4,7 +4,7 @@
       <div id="nav">
         <div id="brand" class="d-none d-sm-block">
           <router-link to="/" class="route_link navbar-brand" id="brand-img">
-            <!--                <img src="pic/Western-Country-Cowboy-HD-Wallpaper.jpg" alt="error" width="50" height="50">-->
+          <!--<img src="pic/Western-Country-Cowboy-HD-Wallpaper.jpg" alt="error" width="50" height="50">-->
             <h6 class="text-dark">خدمات رادیولوژی</h6>
           </router-link>
         </div>
@@ -35,8 +35,9 @@
             to="/account/register"
           >
             <img
-              src="../../../assets/images/icons/register.png"
-              alt=""
+              src="../../../assets/images/icons/register1.png"
+              alt="register"
+              width="32" height="32"
               title="ثبت نام"
               class="icon-sign"
             />
@@ -47,8 +48,9 @@
             class="mr-1"
           >
             <img
-              src="../../../assets/images/icons/login.png"
-              alt=""
+              src="../../../assets/images/icons/login1.png"
+              alt="login"
+              width="32" height="32"
               title="ورود"
               class="icon-sign"
             />
