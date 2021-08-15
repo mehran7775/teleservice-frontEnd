@@ -14,7 +14,7 @@
         <legend align="right">ثبت نام:</legend>
         <div class="form-group text-right p-2">
           <div class="form-group">
-            <label for="name">نام:</label><br />
+            <div><label for="name">نام:</label><br /></div>
             <input
               v-model="form.name"
               @input="checkValidate(form.name, 'name')"

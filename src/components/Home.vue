@@ -67,7 +67,7 @@ import Vue from "vue";
 import Header from "./frontend/layout/Header-view";
 import Footer from "./frontend/layout/Footer-view";
 import Register from "./frontend/sign_out/Register";
-import Login from "./frontend/sign_out/Login";
+import Login from "./frontend/sign_out/Login2";
 // import Logout from './frontend/sign_out/Logout'
 import { mapState, mapGetters, mapMutations, mapActions } from "vuex";
 // import {store} from '../store'

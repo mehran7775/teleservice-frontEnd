@@ -140,6 +140,11 @@ export default {
         state.response_api.login.failed=false
         break
       }
+      case 'okUsernEmailPassword':{
+        state.validatesLogin.errorUsers.password=''
+        state.response_api.login.failed=false
+        break
+      }
       case 'okPasswordLogin':{
         state.validatesLogin.errorUsers.password=''
         state.response_api.login.failed=false

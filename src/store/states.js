@@ -114,6 +114,7 @@ export default {
     },
     btnStatus: true,
     errorUsers: {
+      username:'',
       email: '',
       password: ''
     },

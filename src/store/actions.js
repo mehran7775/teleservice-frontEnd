@@ -203,10 +203,11 @@ export default {
           commit('change_response_api_login', response.data)
           router.push({ path: '/' })
         }
-        // console.log(response.data.failed)
+        console.log(response)
       })
       .catch(error => {
         loader.hide();
+        console.log('error',error.response)
         commit('change_response_api_login', error.response.data)
       })
   },
